@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Notetaker",
+  "version": "0.1.0",
+  "description": "Minimum Viable Produce for the notetaker chrome extension",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+  }]
+ 
+}
