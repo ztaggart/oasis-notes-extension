@@ -45,7 +45,7 @@ class App extends React.Component {
          <input type="Submit" value="Save"/>
         </form>
         {
-         this.state.notes.map((note) => <div key={note.id}>{note.title}: {note.info}</div> )
+         this.state.notes.map((note) => <div key={note.id}>{note.title}: {note.info}</div> ) //Can I do window.localStorage.setItem() on this?
         }
       </div>
     );
