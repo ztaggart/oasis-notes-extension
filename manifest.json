@@ -6,11 +6,11 @@
   "description": "Minimum Viable Produce for the notetaker chrome extension",
   
   "browser_action": {
-    "default_popup": "popup.html",
+    "default_popup": "index.html",
     "default_icon": "icon.png"
   },
   "background" : {
-    "scripts" : ["./dylan.js"]
+    "scripts" : ["./index.js"]
   },
   
   "permissions": [
