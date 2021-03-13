@@ -10,7 +10,7 @@
     "default_icon": "icon.png"
   },
   "background" : {
-    "scripts" : ["./dylan.js"]
+    "scripts" : ["dylan.js"]
   },
   
   "permissions": [
