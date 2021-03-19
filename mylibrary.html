@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="mylibrary.css">
+    <meta name="viewport" content="width=device-width">
+  <style>
+div {
+    max-width: 100%;
+}
+</style>
+  
+  <title>
+    My Library
+  </title>
+    
+  </head>
+  
+  <body>
+    
+      <div id="toppage">
+  <div class="topblock">
+   <div id="NoteTaker"> <h1>
+      NoteTaker
+    </h1>
+    </div>
+    <div id="tagline">
+    <h2>
+      Create Personal Definition Libraries
+    </h2>
+    </div>
+    <div id="login">
+    <h3>
+      <a> Log In/Sign Up </a>
+    </h3>
+    </div>
+  </div>
+
+  <div>
+    <nav id="topnav">
+      <a href='homepage.html'> Home </a>
+      <a href='mylibrary.html'> My Library </a>
+      <a> About </a>
+    </nav>
+  </div>
+          
+  </div>
+    
+    <div id='content'>
+      
+      <div id='filterbar'>
+        <div id='dropdown'> 
+          <!-- <label for="defset"></label>
+          <select name="cars" id="cars">
+            <option value="fundies">Fundies 1</option>
+            <option value="mktg">MKTG3501</option>
+            <option value="fina">FINA2201</option>
+          
+        </select>
+      -->
+
+          
+      
+        </div>
+        <div id='searchbar'>
+          <input id='searchbox' type="search">        
+          <input type="submit" value="Search">
+        </div>
+        <a> Filter </a>
+        <a> Sort </a>
+      </div>
+      
+      <div id='library'>
+        <div id='setname'>
+          <h2> Fundies 1 </h2>
+        </div>
+        
+        <div class='pair'>
+          
+          <input id='checkbox' type='checkbox'>
+          
+          
+          <div class='term'>
+            term
+          </div>
+          
+          <div class='definition'>
+            definition
+          </div>
+          
+             </div>
+        
+        <div class='pair'>
+          
+          <input id='checkbox' type='checkbox'>
+          
+          
+          <div class='term'>
+            term
+          </div>
+          
+          <div class='definition'>
+            definition
+          </div>
+          
+             </div>
+        
+        <div class='pair'>
+          
+          <input id='checkbox' type='checkbox'>
+          
+          
+          <div class='term'>
+            term
+          </div>
+          
+          <div class='definition'>
+            definition
+          </div>
+          
+             </div>
+        
+             <div class='pair'>
+          
+                <input id='checkbox' type='checkbox'>
+                
+                
+                <div class='term'>
+                  term
+                </div>
+                
+                <div class='definition'>
+                  definition
+                </div>
+                
+                   </div>
+
+
+                   <div class='pair'>
+          
+                    <input id='checkbox' type='checkbox'>
+                    
+                    
+                    <div class='term'>
+                      term
+                    </div>
+                    
+                    <div class='definition'>
+                      definition
+                    </div>
+                    
+                       </div>
+
+
+                       <div class='pair'>
+          
+                        <input id='checkbox' type='checkbox'>
+                        
+                        
+                        <div class='term'>
+                          term
+                        </div>
+                        
+                        <div class='definition'>
+                          definition
+                        </div>
+                        
+                           </div>
+
+             </div>
+          
+      </div>
+
+
+      <script
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+     
+
+      <script type='text/babel'
+        src='dropdown.js'>
+      </script>
+<!--
+      <script type='text/babel'
+        src='Openmenu.js'>
+      </script> 
+    -->
+
+   <script type='text/babel'>
+      ReactDOM.render(<Dropdown/>, document.querySelector('#dropdown'))
+    </script>
+  
+    
+  </body>
+</html>

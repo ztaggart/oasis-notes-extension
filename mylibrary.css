@@ -1,0 +1,128 @@
+
+#NoteTaker {
+    text-align : left;
+    color:darkblue;
+    font-size:30px;
+    font-family:Helvetica;
+  }
+  
+  #tagline {
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    width:500px;
+  }
+  
+  #login {
+    position:relative;
+    top:-150px;
+    right:-1300px;
+    width:150px;
+    --background-color:red;
+  }
+  
+  #topnav {
+    --background-color:darkblue;
+    color:black;
+    height:40px;
+    font-size:25px;
+    position:relative;
+    top:-100px;
+    text-align:right;
+    
+  }
+  
+  #topnav a {
+    padding: 10px 15px 10px;
+    color:black;
+    text-decoration:none;
+  }
+  
+  /* Change the color of links on hover */
+  #topnav a:hover {
+    color: gray;
+  }
+  
+  /* Add a color to the active/current link */
+  #topnav a.active {
+    color: white;
+  }
+  
+  #filterbar {
+    position:relative;
+    top:-50px;
+    height:55px;
+    background-color: darkblue;
+  }
+  
+  #filterbar a {
+    position:relative;
+    top:-10px;
+    right:-1200px;
+    color:white;
+    padding:30px 30px 10px;
+    font-size: 20px;
+    width:100%;
+
+  }
+  
+  #menubutton {
+    position:relative;
+    right:-5px;
+    padding:10px;
+    top:-5px;
+    width:50px;
+    height:50px;
+    float:left;
+    --background-color:white;
+  }
+  
+  #searchbar {
+    position:relative;
+    right:-200px;
+    top:20px;
+    width:1000px;
+  }
+  
+  #searchbox {
+    width:800px;
+  }
+  
+  
+  
+  
+  .term {
+    background-color:lightblue;
+    width:50%;
+    text-align:center;
+    padding:25px;
+  }
+  
+  #checkbox {
+    width:25px;
+    height:25px;
+    position:relative;
+    top:50px;
+  }
+  
+  .definition {
+    float:right;
+    background-color:lightgray;
+    width:45%;
+    text-align:center;
+    padding:25px;
+    position:relative;
+    top:-68.5px;
+  }
+  
+  
+  .pair {
+    --background-color:black;
+  }
+  
+
+  #menu {
+    background-color:red;
+    width:40px;
+    height:500px;
+  }
